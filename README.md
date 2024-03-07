@@ -1,2 +1,2 @@
-# monascape
+# type-single-page
  
