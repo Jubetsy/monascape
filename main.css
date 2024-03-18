@@ -21,7 +21,7 @@
     }
     
     body{
-    background-color: lightsteelblue;
+    background-color: rgb(236, 236, 236);
     font-family: 'Monaspace';
 }
 /* how the page wrapper will appear on mobile */
@@ -61,7 +61,7 @@ footer{
 
 /* variable font animation */
 h3{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 186, 57);
     font-weight:20; 
     text-align: center;
     font-size: 5em;
