@@ -22,7 +22,7 @@
     
     body{
     background-color: rgb(252, 252, 252);
-    font-family: 'Monaspace';
+    font-family: 'MonaspaceKryptonVarVF';
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -65,6 +65,13 @@ h3{
     font-weight:20; 
     text-align: center;
     font-size: 5em;
+    animation: weightChange 7s infinite;
+}
+h1{
+    color: rgb(255, 186, 57);
+    font-weight:20; 
+    text-align: left;
+    font-size: 2em;
     animation: weightChange 7s infinite;
 }
 
