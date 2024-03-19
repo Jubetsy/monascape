@@ -61,21 +61,21 @@ footer{
 
 /* variable font animation */
 h3{
-    color: rgb(255, 186, 57);
+    color: rgb(254, 80, 234);
     font-weight:20; 
     text-align: center;
     font-size: 5em;
     animation: weightChange 7s infinite;
 }
 h1{
-    color: rgb(255, 186, 57);
+    color: rgb(57, 255, 222);
     font-weight:20; 
     text-align: left;
     font-size: 2em;
     animation: weightChange 7s infinite;
 }
 p{
-    color: rgb(255, 186, 57);
+    color: rgb(140, 140, 140);
     font-weight:20; 
     text-align: left;
     font-size: 1em;
