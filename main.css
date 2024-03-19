@@ -1,9 +1,9 @@
 @font-face {
-    src: url("fonts/MonaspaceKryptonVarVF[wght\,wdth\,slnt].woff2") format ("woff2"),
-        url("fonts/MonaspaceArgonVarVF[wght\,wdth\,slnt].woff2") format("woff2"),
-        url('fonts/MonaspaceNeonVarVF[wght\,wdth\,slnt].woff2') format("woff2"),
-        url('fonts/MonaspaceRadonVarVF[wght\,wdth\,slnt].woff2') format("woff2"),
-        url('fonts/MonaspaceXenonVarVF[wght\,wdth\,slnt].woff2') format("woff2"),
+    src: url('fonts/MonaspaceKryptonVarVF[wght\,wdth\,slnt].woff2') format ('woff2'),
+        url('fonts/MonaspaceArgonVarVF[wght\,wdth\,slnt].woff2') format('woff2'),
+        url('fonts/MonaspaceNeonVarVF[wght\,wdth\,slnt].woff2') format('woff2'),
+        url('fonts/MonaspaceRadonVarVF[wght\,wdth\,slnt].woff2') format('woff2'),
+        url('fonts/MonaspaceXenonVarVF[wght\,wdth\,slnt].woff2') format('woff2'),
         url('fonts/MonaspaceKryptonVarVF[wght\,wdth\,slnt].ttf') format('truetype'),
         url('fonts/MonaspaceArgonVarVF[wght\,wdth\,slnt].ttf') format('truetype'),
         url('fonts/MonaspaceNeonVarVF[wght\,wdth\,slnt].ttf') format('truetype'),
@@ -14,7 +14,7 @@
         *{
             border: 3px blue dashed
         }
-    font-family: 'MonaspaceKryptonVarVF';
+    font-family: 'Monaspace';
     font-style: normal;
     font-weight: normal;
 
@@ -22,7 +22,7 @@
     
     body{
     background-color: rgb(0, 0, 0);
-    font-family: 'MonaspaceKryptonVarVF';
+    font-family: 'Monaspace';
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
