@@ -120,7 +120,7 @@ p{
  .custom-link {
     display: inline-block;
     padding: 0.5em 1em;
-    background-color: #4caf50; /* green */
+    background-color: #ff9c32; /* green */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -145,5 +145,5 @@ p{
 
   /* Custom link hover effect */
   .custom-link:hover {
-    background-color: #388e3c; /* darker green */
+    background-color: rgb(255, 173, 85); /* darker green */
   }
