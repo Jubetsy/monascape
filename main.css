@@ -11,9 +11,9 @@
         url('fonts/MonaspaceXenonVarVF[wght\,wdth\,slnt].ttf') format('truetype');
         
 
-        *{
+       /*{
             border: 3px blue dashed
-        }
+        }*/
     font-family: 'Monaspace';
     font-style: normal;
     font-weight: normal;
@@ -60,37 +60,69 @@ footer{
 }
 
 /* variable font animation */
-h3{
+h2{
     color: rgb(254, 80, 190);
     font-weight:20; 
     text-align: center;
     font-size: 5em;
     animation: weightChange 7s infinite;
 }
+h3{
+    color:rgb(140, 140, 140);
+    font-weight:20; 
+    text-align: center;
+    font-size: 2em;
+    /*animation: weightChange 7s infinite;*/
+}
 h1{
+    h2{
+        font-weight:400 ;
+    }
+    
+
+    
+    ul{
+       font-size:30px
+    }
+    
+    .size{
+        font-size:30px
+    }
+    .weight{
+        font-variation-settings: "wght" 800, "SPAC" 100;
+    
+    }
+    .space{
+        font-variation-settings: "wght" 400, "SPAC" 800;
+    }
     color: rgb(57, 255, 222);
     font-weight:20; 
     text-align: left;
     font-size: 2em;
-    animation: weightChange 7s infinite;
+    /*animation: weightChange 7s infinite;*/
 }
 p{
     color: rgb(140, 140, 140);
     font-weight:20; 
     text-align: left;
     font-size: 1em;
-    animation: weightChange 7s infinite;
+    /*animation: weightChange 7s infinite;*/
 
 }
-
-@keyframes weightChange {
-    0%, 100%{
-        font-variation-settings: "wght" 200, "wdth" 100, "slnt" -11;
-    }
-    50%{ font-variation-settings: "wght" 800, "wdth" 200, "slnt" 0;
+.animated-weight{
+    animation: weightChange 4s infinite;
     }
     
-}
+    @keyframes weightChange {
+        0%, 100%{
+            font-variation-settings: "wght" 200, "wdth" 100, "slnt" -11;
+        }
+        50%{ font-variation-settings: "wght" 800, "wdth" 200, "slnt" 0;
+        }
+        
+    }
+
+    
 /* variable font that changes on hover */
 .variable-font{
     font-weight:1 ;
@@ -120,7 +152,7 @@ p{
  .custom-link {
     display: inline-block;
     padding: 0.5em 1em;
-    background-color: #ff9c32; /* green */
+    background-color: rgb(60, 255, 125); /* green */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -145,5 +177,5 @@ p{
 
   /* Custom link hover effect */
   .custom-link:hover {
-    background-color: rgb(255, 173, 85); /* darker green */
+    background-color: rgb(85, 255, 142); /* darker green */
   }
