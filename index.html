@@ -26,7 +26,7 @@
           </header>
           <!-- Hero section -->
           <section class="title">
-                <h2>Monaspace</h2>
+                <h2 class="animated">Monaspace</h2>
 
           </section>
           <section class="hero">
@@ -58,12 +58,10 @@
           <section id="variations">
             
             <h1>{Weight, Slant, and Width}</h1>
-            <ul>
-              <li class="animated-weight">Weight</li>
-              <li class="animated-slant">Slant</li>
-              <li class="animated-Width">Width</li>
-      
-          </ul>
+            <label for="weight-slider">Font Weight:</label>
+            <input type="range" id="weight-slider" min="100" max="900" step="100" value="400">
+            <p class="variable-font" id="variable-text">This is a sample text.</p>
+         
           
             <p> The weight axis ranges from 200 to 800
               <p>200: Extra Light<p>
@@ -90,6 +88,7 @@
           <footer>
             Footer content goes here
           </footer>
-
+          <script src="script.js"></script>
 </body>
+<script src="script.js"></script>
 </html>
