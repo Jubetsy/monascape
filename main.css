@@ -34,7 +34,7 @@
 @media only screen and (min-width:800px){
 .page-wrapper{
 display: grid;
-grid-gap: 25px;
+grid-gap: 125px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
