@@ -38,8 +38,8 @@ grid-gap: 25px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
-    "h v"
-    "a a";
+    "h a"
+    "v a";
 }
 
 .history {
@@ -75,26 +75,7 @@ h3{
     /*animation: weightChange 7s infinite;*/
 }
 h1{
-    h2{
-        font-weight:400 ;
-    }
     
-
-    
-    ul{
-       font-size:30px
-    }
-    
-    .size{
-        font-size:30px
-    }
-    .weight{
-        font-variation-settings: "wght" 800, "SPAC" 100;
-    
-    }
-    .space{
-        font-variation-settings: "wght" 400, "SPAC" 800;
-    }
     color: rgb(57, 255, 222);
     font-weight:20; 
     text-align: left;
