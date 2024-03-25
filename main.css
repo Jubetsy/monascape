@@ -47,12 +47,18 @@ grid-area: h;
 .variations{
 grid-area: v;
 }
-p{
+
+.variable-font{
     font-size: 1em;
+    color: rgb(210, 255, 165);
 }
+/*p{
+    font-size: 1em;
+    color: yellow;
+}*/
 .alphabet {
 grid-area: a;
-}
+
 }
 /* CSS for the footer */
 footer{
