@@ -19,7 +19,7 @@
     }
     
     body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     font-family: 'MonaspaceKrypton';
 }
 /* how the page wrapper will appear on mobile */
@@ -95,12 +95,12 @@ p{
     @keyframes weightChange {
         0%, 100%{
             font-variation-settings: "wght" 200, "wdth" 100, "slnt" -11;
-            color:red;
+            color:rgb(255, 247, 0);
         }
 
         50%{ 
             font-variation-settings: "wght" 800, "wdth" 125, "slnt" 0;
-            color:blue;
+            color:rgb(255, 0, 174);
         }
         
     }
