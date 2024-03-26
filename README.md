@@ -1,2 +1,2 @@
-# type-single-page
- 
+# monascape
+ The goal of this project was to code a variable font site that showed all the attributes of the font. I chose Monascape for my font because its a font created for coding and I thought I could use coding elements as a general theme for the website. Overall I feel I executed my website well, I had to use Javascript to make some sliders to show the deifferent in the font weight. I still can't get the other two sliders to work but hope to figure it out in the future. I played around with margins and reoragnization on the page and overall animating and getting my font to work.
