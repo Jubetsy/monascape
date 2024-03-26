@@ -24,20 +24,21 @@
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
-    width: min(100% - 3rem, 80ch);
+    width: min(100% - 3rem, 150ch);
     margin-inline: auto;
 }
 /* how the page wrapper appears on desktop */
 
-@media only screen and (min-width:800px){
+@media only screen and (min-width:2500px){
 .page-wrapper{
 display: grid;
-grid-gap: 125px;
+grid-gap: 300px;
+row-gap: 75px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
-    "h a"
-    "v a";
+    "h v"
+    "a f";
 }
 
 .history {
@@ -48,25 +49,29 @@ grid-area: h;
 grid-area: v;
 }
 
+.fonts {
+grid-area: f;
+}
+
+
+.alphabet {
+grid-area: a;
+}
+}
 .variable-font{
     font-size: 1em;
     color: rgb(210, 255, 165);
 }
-/*p{
-    font-size: 1em;
-    color: yellow;
-}*/
-.alphabet {
-grid-area: a;
 
-}
 /* CSS for the footer */
-footer{
-    background-color: gray;
-}
+
 
 /* variable font animation */
-
+h7{
+    color:  rgb(94, 94, 93);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
 h3{
     color:rgb(140, 140, 140);
     font-weight:20; 
@@ -111,7 +116,11 @@ p{
         
     }
 
-    
+.footer{
+    background-color: gray;
+    height: 100%;
+    width:100%;
+} 
 /* variable font that changes on hover */
 /* .variable-font{
     font-weight:1 ;
@@ -139,6 +148,7 @@ p{
 } */
  /* Custom link with background and border */
  .custom-link {
+    
     display: inline-block;
     padding: 0.5em 1em;
     background-color: rgb(60, 255, 125); /* green */

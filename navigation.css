@@ -45,7 +45,7 @@
   }
   
   nav a {
-      color: rgb(255, 255, 255);
+      color: rgb(94, 94, 93);
       text-decoration: none;
       font-size: 1.2rem;
       text-transform: uppercase;
@@ -54,7 +54,7 @@
   }
   /* where to change the font color of the nav bar pop-up */
   nav a:hover {
-      color: orange;
+      color:  rgb(210, 255, 165);
   }
   
   .nav-checkbox:checked ~ nav {
