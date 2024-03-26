@@ -148,7 +148,6 @@ p{
 } */
  /* Custom link with background and border */
  .custom-link {
-    
     display: inline-block;
     padding: 0.5em 1em;
     background-color: rgb(60, 255, 125); /* green */
@@ -176,5 +175,5 @@ p{
 
   /* Custom link hover effect */
   .custom-link:hover {
-    background-color: rgb(85, 255, 142); /* darker green */
+    background-color:  rgb(57, 255, 222); /* darker green */
   }
