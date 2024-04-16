@@ -114,6 +114,7 @@ p{
         
     }
 
+    /* added footer*/
 footer{
     padding-left: 230px;
     padding-top: 10px;
@@ -123,7 +124,7 @@ footer{
     height: 100%;
     width:100%;
 } 
-/* variable font that changes on hover */
+/* slant animation */
 .slant{
     color: rgb(57, 255, 222);
     font-weight:1 ;
@@ -146,6 +147,7 @@ footer{
     
 }
 
+/* width animation */
 .width{
     color: rgb(57, 255, 222);
     font-weight:1 ;
