@@ -23,41 +23,39 @@
     font-family: 'MonaspaceKrypton';
 }
 /* how the page wrapper will appear on mobile */
-.page-wrapper{
-    width: min(100% - 3rem, 150ch);
-    margin-inline: auto;
-}
+
 /* how the page wrapper appears on desktop */
 
-@media only screen and (min-width:2500px){
+/*@media only screen and (min-width:2500px)*/
 .page-wrapper{
+      width: min(100% - 3rem, 120ch);
+ margin-inline: auto;
 display: grid;
-grid-gap: 300px;
-row-gap: 75px;
+grid-gap: 20px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
     "h v"
-    "a f";
+    "h a";
 }
 
-.history {
+#history {
 grid-area: h;
 }
 
-.variations{
+#variations{
 grid-area: v;
 }
 
-.fonts {
+/*#fonts {
 grid-area: f;
-}
+}*/
 
 
-.alphabet {
+#alphabet {
 grid-area: a;
 }
-}
+
 .variable-font{
     font-size: 1em;
     color: rgb(210, 255, 165);
@@ -116,41 +114,66 @@ p{
         
     }
 
-.footer{
+footer{
+    padding-left: 230px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* padding: 10px; */
     background-color: gray;
     height: 100%;
     width:100%;
 } 
 /* variable font that changes on hover */
-/* .variable-font{
+.slant{
+    color: rgb(57, 255, 222);
     font-weight:1 ;
-    height:100vh;
-    font-size: 10em;
-    display:grid;
-    place-content: center;
+    font-size: 2em;
     margin: 0;
-    text-align: center;
-    font-variation-settings: "wght" 40, "wdth" 0, "XXXX" 1;
-    transition: 
-        font-weight 500ms,
-        font-variation-settings 3s;
+    font-variation-settings: "slnt" 0;
+    animation: slant 2s infinite;
 }
 
-.variable-font:hover{
-    font-weight:500 ;
-    height:100vh;
-    font-size: 7em;
-    display:grid;
-    place-content: center;
+@keyframes slant {
+    0%, 100%{
+        font-variation-settings: "wght" 500, "wdth" 100, "slnt" -11;
+
+    }
+
+    50%{ 
+        font-variation-settings: "wght" 500, "wdth" 100, "slnt" 0;
+      
+    }
+    
+}
+
+.width{
+    color: rgb(57, 255, 222);
+    font-weight:1 ;
+    font-size: 2em;
     margin: 0;
-    text-align: center;
-    font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
-} */
- /* Custom link with background and border */
+    font-variation-settings: "wdth" 100;
+    animation: width 3s infinite;
+}
+
+@keyframes width {
+    0%, 100%{
+        font-variation-settings: "wght" 500, "wdth" 100, "slnt" 0;
+
+    }
+
+    50%{ 
+        font-variation-settings: "wght" 500, "wdth" 125, "slnt" 0;
+      
+    }
+    
+}
+ /* Custom link  with background and border */
  .custom-link {
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: inline-block;
     padding: 0.5em 1em;
-    background-color: rgb(60, 255, 125); /* green */
+    background-color: rgb(255, 153, 57); /* green */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -175,5 +198,17 @@ p{
 
   /* Custom link hover effect */
   .custom-link:hover {
-    background-color:  rgb(57, 255, 222); /* darker green */
+    background-color:  rgb(161, 97, 37); /* darker green */
   }
+
+  /*slider customization*/
+  #variable-text{
+    font-size: 40px;
+  }
+  input[type='range'] {
+    overflow: hidden;
+    /* width: 80px; */
+    -webkit-appearance: none;
+    background-color:  rgb(172, 172, 172);
+
+
